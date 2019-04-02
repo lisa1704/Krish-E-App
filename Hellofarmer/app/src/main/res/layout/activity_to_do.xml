@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ToDoActivity">
+
+
+    <TextView
+        android:id="@+id/textseeds"
+        android:layout_width="110dp"
+        android:layout_height="48dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="274dp"
+        android:layout_marginTop="301dp"
+        android:text="Seeds"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="17dp" />
+
+    <TextView
+        android:id="@+id/textFer"
+        android:layout_width="110dp"
+        android:layout_height="48dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="297dp"
+        android:text="Fertilizer"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="17dp" />
+
+    <TextView
+        android:id="@+id/textFer2"
+        android:layout_width="110dp"
+        android:layout_height="48dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="279dp"
+        android:layout_marginTop="663dp"
+        android:text="Spice"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="17dp" />
+
+    <TextView
+        android:id="@+id/textFer3"
+        android:layout_width="110dp"
+        android:layout_height="48dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="663dp"
+        android:text="Vegetable"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="17dp" />
+
+    <TextView
+        android:id="@+id/textFer4"
+        android:layout_width="110dp"
+        android:layout_height="48dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="475dp"
+        android:text="Friuts"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="17dp" />
+
+    <TextView
+        android:id="@+id/textFer5"
+        android:layout_width="110dp"
+        android:layout_height="48dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="274dp"
+        android:layout_marginTop="480dp"
+        android:text="Oil"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="17dp" />
+
+    <TextView
+        android:id="@+id/textCrops"
+        android:layout_width="110dp"
+        android:layout_height="48dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="272dp"
+        android:layout_marginTop="123dp"
+        android:text="Crops"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="17dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="5dp"
+        app:srcCompat="@drawable/rent" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="31dp"
+        app:srcCompat="@drawable/crop" />
+
+    <ImageView
+        android:id="@+id/fertilizer"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="179dp"
+        app:srcCompat="@drawable/fertilizer" />
+
+    <ImageView
+        android:id="@+id/seed"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="183dp"
+        android:layout_marginEnd="28dp"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="17dp"
+        app:srcCompat="@drawable/seed" />
+
+    <TextView
+        android:id="@+id/texTrent"
+        android:layout_width="110dp"
+        android:layout_height="48dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="119dp"
+        android:text="Rent farm machinery"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="17dp" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="41dp"
+        android:layout_marginBottom="263dp"
+        app:srcCompat="@drawable/apple" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="26dp"
+        android:layout_marginBottom="258dp"
+        app:srcCompat="@drawable/oil" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="42dp"
+        android:layout_marginBottom="80dp"
+        app:srcCompat="@drawable/vegetable" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="278dp"
+        android:layout_marginBottom="76dp"
+        app:srcCompat="@drawable/spice" />
+</RelativeLayout>
