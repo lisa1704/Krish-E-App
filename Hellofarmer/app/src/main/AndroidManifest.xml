@@ -18,6 +18,12 @@
         <activity android:name=".RegisterActivity" />
         <activity android:name=".LoginActivity" />
         <activity android:name=".AddNewMachineryActivity" />
+        <activity android:name=".AddBtnActivity"></activity>
+        <activity android:name=".InitialMenu" />
+        <activity
+            android:name=".Initial_menuActivity"
+            android:label="@string/title_activity_initial_menu"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".ToDoActivity" />
         <activity android:name=".Splash">
             <intent-filter>
