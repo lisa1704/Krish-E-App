@@ -20,7 +20,7 @@ public class SlideAdapter extends PagerAdapter {
             R.drawable.farmrent,
             R.drawable.buy,
             R.drawable.sell,
-            R.drawable.communiity
+            R.drawable.community
 
 
 
@@ -29,13 +29,13 @@ public class SlideAdapter extends PagerAdapter {
             {
                     "Rent Farm Machinery",
                     "Buy fresh organic product",
-                    "Sell your commodities",
+                    "Sell your crops",
                     "Join a community"
             };
 
     @Override
     public int getCount() {
-        return 0;
+        return slide_text.length;
     }
 
     @Override

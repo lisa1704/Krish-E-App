@@ -1,5 +1,6 @@
 package com.example.hellofarmer;
 
+import android.content.Intent;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -24,11 +25,11 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        msLideViewPager=(ViewPager) findViewById(R.id.slideview);
+         msLideViewPager=(ViewPager) findViewById(R.id.slideview);
         mDoLayout=(LinearLayout)findViewById(R.id.dots);
         mNextButton=(Button)findViewById(R.id.nextBtn);
         mBackButton=(Button)findViewById(R.id.prevbtn);
-        sliderAdapter=new SlideAdapter(this);
+        sliderAdapter=new SlideAdapter( this);
         msLideViewPager.setAdapter(sliderAdapter);
         addDotsIndicator(0);
         msLideViewPager.addOnPageChangeListener(viewListener);
@@ -49,7 +50,8 @@ public class MainActivity extends AppCompatActivity {
     public void addDotsIndicator(int position)
     {
         mdots=new TextView[4];
-        for(int i=0;i<mdots.length;i++)
+        mDoLayout.removeAllViews();
+          for(int i=0;i<mdots.length;i++)
         {
             mdots[i]=new TextView(this);
             mdots[i].setText(Html.fromHtml("&#8226;"));
@@ -62,7 +64,7 @@ public class MainActivity extends AppCompatActivity {
         }
         if(mdots.length>0)
         {
-            mdots[position].setTextColor(getResources().getColor(R.color.colorPrimary));
+            mdots[position].setTextColor(getResources().getColor(R.color.colorPrimaryDark));
         }
     }
 
@@ -76,6 +78,7 @@ public class MainActivity extends AppCompatActivity {
         @Override
         public void onPageSelected(int i) {
             addDotsIndicator(i);
+
             mcurrentpage=i;
             if(i==0)
             {
@@ -91,6 +94,14 @@ public class MainActivity extends AppCompatActivity {
                 mBackButton.setVisibility(View.VISIBLE);
                 mNextButton.setText("Finish");
                 mBackButton.setText("Back");
+                mNextButton.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        Intent intent =new Intent(MainActivity.this,LoginActivity.class);
+                        startActivity(intent);
+                    }
+                });
+
             }
             else
             {
