@@ -21,6 +21,10 @@
             "package_name": "com.example.hellofarmer",
             "certificate_hash": "565c6910f0e1713cf6c28ab3d6901998d2a3c2b2"
           }
+        },
+        {
+          "client_id": "395593578330-p4a54jpepq18oad37erhuuov11n18v9n.apps.googleusercontent.com",
+          "client_type": 3
         }
       ],
       "api_key": [

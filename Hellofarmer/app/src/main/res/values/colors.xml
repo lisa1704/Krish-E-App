@@ -2,7 +2,7 @@
 <resources>
     <color name="colorPrimary">#19AA8B</color>
     <color name="colorPrimaryDark">#00574B</color>
-    <color name="colorAccent">#3EC505</color>
+    <color name="colorAccent">#C9FFB2</color>
     <color name ="white">#FFFFFF</color>
     <color name ="transparent">#00FFFFFF</color>
     <color name ="gradstart">#19AA8B</color>
@@ -31,4 +31,15 @@
     <color name="green1">#33cc33</color>
     <color name="yellow1">#e6e600</color>
     <color name="purple1">#8e2bd4</color>
+
+
+    <color name="deeppurple">#7c4dff</color>
+
+    <color name="green">#00bfa5</color>
+
+    <color name="darkblue">#23283a</color>
+    <color name="testcolorblue">#152b38</color>
+    <color name="pink">#fe104d</color>
+
+    <color name="black_overlay">#66000000</color>
 </resources>

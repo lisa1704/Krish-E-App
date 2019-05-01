@@ -56,7 +56,7 @@ public class MainActivity extends AppCompatActivity {
             mdots[i]=new TextView(this);
             mdots[i].setText(Html.fromHtml("&#8226;"));
             mdots[i].setTextSize(35);
-            mdots[i].setTextColor(getResources().getColor(R.color.colorPrimary));
+            mdots[i].setTextColor(getResources().getColor(R.color.white));
 
             mDoLayout.addView(mdots[i]);
 
