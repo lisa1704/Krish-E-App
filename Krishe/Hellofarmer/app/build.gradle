@@ -122,6 +122,7 @@ dependencies {
     implementation 'com.getkeepsafe.taptargetview:taptargetview:1.11.0'
 
     implementation 'com.github.bumptech.glide:glide:3.8.0'
+    implementation 'com.google.android.gms:play-services-analytics:9.4.0'
     annotationProcessor 'com.github.bumptech.glide:compiler:4.4.0'
 
     //Field and method binding for Android views which uses annotation processing
@@ -147,6 +148,8 @@ dependencies {
 
     // Dexter runtime permissions
     implementation 'com.karumi:dexter:4.2.0'
+
+
 
 
     testCompile 'junit:junit:4.12'
