@@ -94,14 +94,12 @@ dependencies {
     implementation 'com.rengwuxian.materialedittext:library:2.1.4'
 
 
-
     implementation 'com.daimajia.androidanimations:library:2.3@aar'
 
 
     implementation 'com.squareup.picasso:picasso:2.3.2'
 
     implementation 'com.daimajia.slider:library:1.1.5@aar'
-
 
 
     implementation 'androidx.annotation:annotation:1.0.0-beta01'
@@ -148,8 +146,6 @@ dependencies {
 
     // Dexter runtime permissions
     implementation 'com.karumi:dexter:4.2.0'
-
-
 
 
     testCompile 'junit:junit:4.12'
