@@ -1,5 +1,5 @@
 <resources>
-    <string name="appname">Krish_e</string>
+    <string name="app_name">Krish_e</string>
 
     <!-- Fragment Names -->
     <string name="fragment_search">Search</string>

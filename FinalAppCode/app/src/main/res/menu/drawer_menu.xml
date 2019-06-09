@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/myprofile" android:title="Myprofile" android:icon="@drawable/profile"/>
+    <item android:id="@+id/granery" android:title="My granery" android:icon="@drawable/explore"/>
+    <item android:id="@+id/garage" android:title="My garage" android:icon="@drawable/tour"/>
+    <item android:id="@+id/RentedMachinery" android:title="Rented Machinery" android:icon="@drawable/helpccenter"/>
+    <item android:id="@+id/Shoppingcart" android:title="Myshppingcart" android:icon="@drawable/cart"/>
+    <item android:id="@+id/logout" android:title="Logout" android:icon="@drawable/logout"/>
+
+
+</menu>

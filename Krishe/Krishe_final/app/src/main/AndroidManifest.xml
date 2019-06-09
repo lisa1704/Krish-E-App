@@ -9,14 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".HelpCenter"></activity>
-        <activity android:name=".Crops" />
-        <activity android:name=".Cart" />
-        <activity android:name=".Wishlist" />
-        <activity android:name=".NotificationActivity" />
-        <activity android:name=".Profile" />
         <activity
-            android:name=".Splash"
+            android:name=".Welcome"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
             <intent-filter>
@@ -25,7 +19,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Welcome" />
+        <activity android:name=".HelpCenter" />
+        <activity android:name=".Crops" />
+        <activity android:name=".Cart" />
+        <activity android:name=".Wishlist" />
+        <activity android:name=".NotificationActivity" />
+        <activity android:name=".Profile" />
         <activity android:name=".RentedMachinery" />
         <activity android:name=".OrderedProduct" />
         <activity android:name=".Garage" />
@@ -33,8 +32,7 @@
         <activity android:name=".AddNewProduct" />
         <activity android:name=".Register" />
         <activity android:name=".Login" />
-        <activity android:name=".MainActivity"/>
-
+        <activity android:name=".MainActivity" />
     </application>
 
 </manifest>
