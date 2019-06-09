@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FilterActivity"
+    android:background="@drawable/whitebg">
+    <Spinner
+        android:id="@+id/CSpinner"
+        android:layout_width="321dp"
+        android:layout_height="45dp"
+
+        android:layout_marginLeft="45dp"
+
+        android:layout_marginRight="45dp"></Spinner>
+    <Spinner
+        android:id="@+id/NSpinner"
+        android:layout_width="321dp"
+        android:layout_height="45dp"
+        android:layout_below="@+id/CSpinner"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"></Spinner>
+    <Spinner
+        android:id="@+id/PSpinner"
+        android:layout_width="321dp"
+        android:layout_height="45dp"
+        android:layout_below="@+id/NSpinner"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"></Spinner>
+    <Spinner
+        android:id="@+id/DSpinner"
+        android:layout_width="321dp"
+        android:layout_height="45dp"
+        android:layout_below="@+id/PSpinner"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"></Spinner>
+    <Spinner
+        android:id="@+id/LSpinner"
+        android:layout_width="321dp"
+        android:layout_height="45dp"
+        android:layout_below="@+id/DSpinner"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"></Spinner>
+
+    <LinearLayout
+        android:id="@+id/searchbtn"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="165dp"
+        android:layout_marginBottom="101dp"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/imageButton7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/psearch" />
+    </LinearLayout>
+
+
+</RelativeLayout>

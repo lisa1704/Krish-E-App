@@ -14,10 +14,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Oil"></activity>
-        <activity android:name=".Seed" />
-        <activity android:name=".Spice" />
-        <activity android:name=".Fertilizer" />
+
         <activity
             android:name=".RegisterActivity"
             android:theme="@style/Theme.AppCompat.NoActionBar"
