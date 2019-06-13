@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/myprofile" android:title="My profile" android:icon="@drawable/profile"/>
+    <item android:id="@+id/granery" android:title="My granery" android:icon="@drawable/explore"/>
+    <item android:id="@+id/Wishlist" android:title="Wishlist" android:icon="@drawable/wishlist"/>
+    <item android:id="@+id/notify" android:title="Notification" android:icon="@drawable/notification"/>
+    <item android:id="@+id/Shoppingcart" android:title="Myshoppingcart" android:icon="@drawable/cart"/>
+    <item android:id="@+id/logout" android:title="Logout" android:icon="@drawable/logout"/>
+
+
+</menu>
