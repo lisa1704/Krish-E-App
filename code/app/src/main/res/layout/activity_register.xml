@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity"
+    android:background="@drawable/bg">
+
+    <TextView
+        android:id="@+id/welcome_text"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Welcome to Phone Auth"
+        android:background="@drawable/btn_bg"
+        android:textColor="@android:color/white"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        />
+
+    <LinearLayout
+        android:id="@+id/phone_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/welcome_text"
+        android:layout_marginTop="34dp"
+
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imagePhone"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            app:srcCompat="@drawable/phone" />
+
+        <EditText
+            android:id="@+id/editTextPhone"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="Phone Number"
+            android:inputType="phone"
+            android:textColorHint="@android:color/holo_blue_dark" />
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonVerifyCode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/phone_layout"
+        android:layout_marginTop="42dp"
+        android:background="@drawable/btn_bg"
+        android:text="Send Verification Code"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+
+        android:layout_centerInParent="true"
+        android:layout_marginEnd="170dp"
+        android:layout_marginBottom="194dp"
+        android:background="@drawable/btn_bg"
+        android:text="Verify"
+        android:textColor="@color/white" />
+
+    <LinearLayout
+        android:id="@+id/verify_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonVerifyCode"
+        android:layout_marginTop="56dp"
+
+
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageVerify"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            app:srcCompat="@drawable/verify" />
+
+        <EditText
+            android:id="@+id/editTextCode"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_alignStart="@+id/verify_layout"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="Verification Code"
+            android:inputType="textPassword"
+            android:textColorHint="@android:color/holo_blue_dark" />
+
+    </LinearLayout>
+
+</RelativeLayout>

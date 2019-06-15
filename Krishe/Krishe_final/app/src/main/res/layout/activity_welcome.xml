@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:theme="@style/AppTheme"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/skip_bg"
+    tools:context=".Welcome">
+
+    <Button
+        android:id="@+id/prevbtn"
+        android:layout_width="99dp"
+        android:layout_height="78dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="312dp"
+        android:layout_marginBottom="0dp"
+        android:background="@color/transparent"
+        android:text="BACK"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        android:visibility="invisible" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/slideview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/dots"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="-562dp"
+        android:layout_marginBottom="82dp"></android.support.v4.view.ViewPager>
+
+    <LinearLayout
+        android:id="@+id/dots"
+
+        android:layout_width="158dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="121dp"
+        android:layout_marginEnd="132dp"
+        android:layout_marginBottom="1dp"
+        android:orientation="horizontal"
+        android:padding="20dp"></LinearLayout>
+
+    <Button
+        android:id="@+id/nextBtn"
+        android:layout_width="99dp"
+        android:layout_height="78dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="0dp"
+        android:background="@color/transparent"
+        android:text="NEXT"
+        android:textColor="@color/white"
+        android:textSize="15dp" />
+
+
+</RelativeLayout>

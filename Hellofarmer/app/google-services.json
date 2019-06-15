@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "395593578330",
+    "firebase_url": "https://krish-e-app-finally.firebaseio.com",
+    "project_id": "krish-e-app-finally",
+    "storage_bucket": "krish-e-app-finally.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:395593578330:android:ccef52637b276164",
+        "android_client_info": {
+          "package_name": "com.example.hellofarmer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "395593578330-it9icgjf4fplptqpplnb4tcj34erelid.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hellofarmer",
+            "certificate_hash": "565c6910f0e1713cf6c28ab3d6901998d2a3c2b2"
+          }
+        },
+        {
+          "client_id": "395593578330-p4a54jpepq18oad37erhuuov11n18v9n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJhTrzKC0jyrTmnqsIsOC8Z1QB6AfAc24"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "395593578330-p4a54jpepq18oad37erhuuov11n18v9n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
